@@ -76,18 +76,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-/*  grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
+#new-games div {
+    border: none;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
-
+#fav-games div {
+    border: none;
+}
 
 
 /* Media queries */
