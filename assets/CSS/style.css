@@ -76,14 +76,42 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-#new-games div {
-    border: none;
-}
-
+#new-games div,
 #fav-games div {
     border: none;
 }
 
+/* Footer / Contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading {
+    color: var(--light-highlight-color)
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--light-highlight-color);
+    font-size: 1.9rem;
+    transition: color .3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color)
+}
 
 /* Media queries */
 
