@@ -21,11 +21,19 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color)
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 /* Navbar  */
 
 #navbar {
@@ -36,7 +44,11 @@ h3 {
     width: 30px;
 }
 
+/* Header */
 
+#header .lead {
+    font-family: var(--secondary-font);
+}
 /*  grid visualisation CSS for testing */
 
 /* .container,
@@ -48,3 +60,5 @@ h3 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+
