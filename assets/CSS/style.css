@@ -137,6 +137,21 @@ h2 {
     margin-right: auto;
 } */
 
+/* Game reservation form */
+
+#game-reservation-form input {
+    
+}
+#booking-form #booking-form-submit {
+    float:right;
+}
+/* #booking-form #date {
+    width:33.333333%
+}
+section #gameselectinput {
+    width: 60.666666667%;
+    display:inline;
+} */
 
 /* Footer / Contact */
 
