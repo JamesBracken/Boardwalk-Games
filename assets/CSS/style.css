@@ -104,6 +104,40 @@ h2 {
     border: none;
 }
 
+/* Events */
+
+/* #events {
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+
+
+.discount-button {
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 0;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+.table-hover-change:hover {
+    background-color: darkgray;
+    transition: 0.3s ease-in-out;
+}
+
+#events p,
+#events table {
+    font-family: var(--primary-font);
+}
+
+
+
+/* .center-table {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
 /* Footer / Contact */
 
 #contact {
