@@ -18,7 +18,10 @@
 
 /* Global styles */
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+
+    /* To push content down below header, stops it covering content */
+    padding-top: 57.15px;
 }
 
 h1,
