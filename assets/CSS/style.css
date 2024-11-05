@@ -44,6 +44,9 @@ h2 {
     color: var(--highlight-color)
 }
 
+.secondary-sub-heading-color {
+    color: var(--light-highlight-color);
+}
 .section {
     /* Prevent navbar overlap */
     padding-top: 4.3rem; 
